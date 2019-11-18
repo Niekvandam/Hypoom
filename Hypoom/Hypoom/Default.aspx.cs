@@ -13,10 +13,5 @@ namespace Hypoom
         protected void Page_Load(object sender, EventArgs e)
         {
         }
-
-        protected void clickButton_OnClick(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
