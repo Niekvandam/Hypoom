@@ -3,11 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Hypoom.Objects.Services
+namespace Hypoom.Objects.StreamingServices
 {
     public class SoundCloudService : Interfaces.IStreamingService
     {
-        public void GetSong()
+        public SoundCloudService(string searchTerm)
+        {
+            _searchTerm = searchTerm;
+        }
+
+        public void Operate()
         {
             throw new NotImplementedException();
         }

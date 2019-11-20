@@ -5,7 +5,11 @@ using System.Web;
 
 namespace Hypoom.Objects
 {
-    public class Services
+    public enum Services
     {
+        Deezer,
+        SoundCloud,
+        Spotify,
+        YouTube
     }
 }
