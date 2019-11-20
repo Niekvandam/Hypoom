@@ -7,6 +7,6 @@ namespace Hypoom.Objects.Interfaces
 {
     public interface IStreamingService
     {
-        void GetSong();
+        Song GetSong();
     }
 }

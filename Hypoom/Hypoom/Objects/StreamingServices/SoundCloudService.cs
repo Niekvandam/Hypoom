@@ -12,7 +12,7 @@ namespace Hypoom.Objects.StreamingServices
             _searchTerm = searchTerm;
         }
 
-        public void Operate()
+        public Song GetSong()
         {
             throw new NotImplementedException();
         }

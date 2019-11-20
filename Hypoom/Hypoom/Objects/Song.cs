@@ -7,5 +7,13 @@ namespace Hypoom
 {
     public class Song
     {
+        
+        private int ID { get; set; }
+        private 
+
+        public Song()
+        {
+
+        }
     }
 }
